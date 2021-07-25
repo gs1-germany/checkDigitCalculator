@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+    font-size: 1rem;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Dosis', sans-serif;
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+.left {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+    
+}
+.right {
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#results{
+    padding-top: 1rem;
+    width: 33%; 
+    float: right;
+    text-align: left;
+}
+
+#figure{
+    width: 25rem;
+}
+
+.key_button {
+    width: 10rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    
+}
+
+#feedback {
+    color: firebrick;
+}
+
+#demo-values {
+    padding-top: 5rem;
+}
+
+/* .page {
+    display: flex;
+    height: 100%;
+  } */

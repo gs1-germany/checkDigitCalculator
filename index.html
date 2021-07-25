@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check Digit Calculator</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS1 Check Digit Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700,800" rel="stylesheet" />
+  <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
 </head>
+
 <body>
-    
+  <div class="page">
+    <main class="main-content">
+      <!--         <div class="logo-container">
+            <img src="img/logo.svg" alt="MAX DESAINR" class="logo" />
+          </div> -->
+      <div>
+        <h1>GS1 Check Digit Calculator</h1>
+      </div>
+      <div class="left">
+        <div>
+          <h3>Insert GS1 Key without check digit</h3>
+          <input id="input">
+          <button id="calculate">Calculate</button>
+        </div>
+        <div>
+          <output id="feedback"></output>
+        </div>
+        <div id="results">
+          <div>
+            <label><strong>Check digit:</strong></label>
+            <output id="output"></output>
+          </div>
+          <div>
+            <label><strong>Resulting key:</strong></label>
+            <output id="keyWithCD"></output>
+          </div>
+        </div>
+        <div id="demo-values">
+          <h3>Insert demo values in input field</h3>
+          <button id="gtin8" class="key_button">GTIN-8</button>
+          <button id="gtin12" class="key_button">GTIN-12</button>
+          <button id="gtin13" class="key_button">GTIN-13</button>
+        </div>
+        <div>
+          <button id="gtin14" class="key_button">GTIN-14</button>
+          <button id="gln" class="key_button">GLN</button>
+          <button id="sscc" class="key_button">SSCC</button>
+        </div>
+        <div>
+          <button id="gsin" class="key_button">GSIN</button>
+          <button id="gsrn" class="key_button">GSRN</button>
+          <button id="gsrnp" class="key_button">GSRN-P</button>
+        </div>
+      </div>
+      <div class="right">
+        <img id="figure" src="images/calculator.jpeg">
+      </div>
+    </main>
+  </div>
+
+  <script type="text/javascript" src="javascript/index.js"></script>
 </body>
+
 </html>
