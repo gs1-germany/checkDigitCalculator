@@ -12,13 +12,13 @@ body {
 }
 
 .left {
-    width: 60%;
+    width: 50%;
     float: left;
     box-sizing: border-box;
     
 }
 .right {
-    width: 40%;
+    width: 50%;
     float: left;
     box-sizing: border-box;
 }
