@@ -39,6 +39,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const calcButton = document.getElementById("calculate")
+    const clearButton = document.getElementById("clear")
     let inputString = document.getElementById("input")
     let outputValue = document.getElementById("output")
     let outputKey = document.getElementById("keyWithCD")
@@ -64,6 +65,11 @@ document.addEventListener("DOMContentLoaded", () => {
             outputKey.value = inputString.value + checkDigit(inputString.value)
         }
       })
+    /* Enable user to clear input field */
+    clearButton.addEventListener("click", () => {
+        inputString.value = ""
+    }
+    )
     /* Enable user to get demo values for each GS1 key */
     const gtin8Button = document.getElementById("gtin8")
     const gtin8Demo = "0123456"

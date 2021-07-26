@@ -28,6 +28,13 @@ body {
     width: 33%; 
     float: right;
     text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
+}
+
+output#output, output#keyWithCD {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
 }
 
 #figure{
@@ -38,7 +45,11 @@ body {
     width: 10rem;
     font-family: 'Dosis', sans-serif;
     font-size: 1rem;
-    
+}
+
+input, button, output {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
 }
 
 #feedback {
