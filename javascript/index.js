@@ -66,9 +66,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       })
     /* Enable user to clear input field */
-    clearButton.addEventListener("click"), () => {
+    clearButton.addEventListener("click", () => {
         inputString.value = ""
     }
+    )
     /* Enable user to get demo values for each GS1 key */
     const gtin8Button = document.getElementById("gtin8")
     const gtin8Demo = "0123456"
