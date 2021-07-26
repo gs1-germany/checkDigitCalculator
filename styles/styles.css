@@ -38,7 +38,8 @@ output#output, output#keyWithCD {
 }
 
 #figure{
-    width: 25rem;
+    width: 70%;
+    float: left;
 }
 
 .key_button {
