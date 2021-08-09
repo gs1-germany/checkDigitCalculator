@@ -5,10 +5,19 @@ html {
 
 body {
     font-size: 1rem;
-    font-family: 'Dosis', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     margin: 0px;
     text-align: center;
+}
+
+h1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h3{
+    padding-bottom: 1%;
 }
 
 .left {
@@ -23,40 +32,48 @@ body {
     box-sizing: border-box;
 }
 
+#inputs{
+    padding-left: 2%;
+    float: left;
+    width: 100%;
+}
+
 #results{
     padding-top: 1rem;
-    width: 33%; 
+    padding-left: 10%;
+    width: 60%; 
     float: right;
     text-align: left;
-    font-family: 'Dosis', sans-serif;
     font-size: 1.2rem;
 }
 
 output#output, output#keyWithCD {
-    font-family: 'Dosis', sans-serif;
     font-size: 1.2rem;
 }
 
 #figure{
-    width: 70%;
+    width: 100%;
     float: left;
 }
 
 .key_button {
     width: 10rem;
-    font-family: 'Dosis', sans-serif;
     font-size: 1rem;
+    margin-bottom: 1%;
 }
 
 input, button, output {
-    font-family: 'Dosis', sans-serif;
     font-size: 1rem;
 }
 
 #feedback {
     color: firebrick;
+    width: 100%;
 }
 
 #demo-values {
-    padding-top: 5rem;
+    padding-top: 5%;
+    padding-left: 2%;
+    float: left;
+    width: 100%;
 }
