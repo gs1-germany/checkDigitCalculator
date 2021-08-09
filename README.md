@@ -1,7 +1,5 @@
 # GS1 Key Check Digit Calculator
 
-![GS1 Check Digit Calculator Demo Tool ](images/checkDigitCalculatorIllustration.png)
-
 Returns the check digit for all GS1 Keys requiring a Modulo 10 check digit, i.e.
  * Global Trade Item Number (GTIN) in all applicable formats, i.e. GTIN-8, GTIN-12, GTIN-13, GTIN-14
  * Global Trade Item Number (GLN)
@@ -14,6 +12,8 @@ Returns **null** if input (GS1 key without check digit) is invalid.
 ## Demo
 
 An interactive demo is available at https://ralphtro.github.io/checkDigitCalculator/
+
+![GS1 Check Digit Calculator Demo Tool ](images/checkDigitCalculator.png)
 
 ## Algorithm
 
