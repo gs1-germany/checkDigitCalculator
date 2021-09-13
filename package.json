@@ -1,25 +1,27 @@
 {
-    "name": "checkdigitcalculator",
-    "version": "1.0.0",
-    "description": "This package contains the logic of the GS1 checkDigitCalculator.",
-    "main": "index.js",
-    "directories": {
-      "lib": "lib"
-    },
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ollah666/checkDigitCalculator.git"
-    },
-    "keywords": [
-      "checkDigitCalculator"
-    ],
-    "author": "octocat4TheWin!",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ollah666/checkDigitCalculator/issues"
-    },
-    "homepage": "https://github.com/ollah666/checkDigitCalculator#readme"
-  }
+  "name": "checkdigitcalculator",
+  "version": "1.0.0",
+  "description": "This package contains the logic of the GS1 checkDigitCalculator.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollah666/checkDigitCalculator.git"
+  },
+  "keywords": [
+    "checkDigitCalculator",
+    "Calculator",
+    "checkDigit"
+  ],
+  "author": "octocat4TheWin!",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ollah666/checkDigitCalculator/issues"
+  },
+  "homepage": "https://github.com/ollah666/checkDigitCalculator#readme"
+}
