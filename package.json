@@ -1,13 +1,12 @@
 {
   "name": "checkdigitcalculator",
   "version": "1.0.0",
-  "description": "This package contains the logic of the GS1 checkDigitCalculator.",
+  "description": "Returns the check digit for all GS1 Keys requiring a Modulo 10 check digit, e.g. GTIN, GLN, and SSCC",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,9 +15,10 @@
   "keywords": [
     "checkDigitCalculator",
     "Calculator",
-    "checkDigit"
+    "checkDigit",
+    "GS1"
   ],
-  "author": "octocat4TheWin!",
+  "author": "octocat4TheWin",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ollah666/checkDigitCalculator/issues"
