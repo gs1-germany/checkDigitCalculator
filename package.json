@@ -1,11 +1,10 @@
 {
-  "dependencies": {},
   "name": "@echsecutor/checkdigitcalculator",
   "description": "Returns the check digit for all GS1 Keys requiring a Modulo 10 check digit, i.e. Global Trade Item Number (GTIN) in all applicable formats, i.e. GTIN-8, GTIN-12, GTIN-13, GTIN-14, Global Location Number (GLN), Serial Shipping Container Code (SSCC), Global Shipment Identification Number (GSIN), Global Service Relationship Number (GSRN)",
   "version": "1.0.3",
   "main": "javascript/index.js",
   "scripts": {
-    "test": "echo \"test...test...\""
+    "test": "./node_modules/.bin/mocha javascript/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/gs1-germany/checkDigitCalculator/issues"
   },
-  "homepage": "https://github.com/gs1-germany/checkDigitCalculator#readme"
+  "homepage": "https://github.com/gs1-germany/checkDigitCalculator#readme",
+  "devDependencies": {
+    "mocha": "^9.1.2"
+  }
 }
