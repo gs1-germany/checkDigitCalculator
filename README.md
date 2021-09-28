@@ -11,7 +11,7 @@ Returns **null** if input (GS1 key without check digit) is invalid.
 
 ## Demo
 
-An interactive demo is available at https://ralphtro.github.io/checkDigitCalculator/
+An interactive demo is available at https://gs1-germany.github.io/checkDigitCalculator/
 
 ![GS1 Check Digit Calculator Demo Tool ](images/checkDigitCalculator.png)
 
