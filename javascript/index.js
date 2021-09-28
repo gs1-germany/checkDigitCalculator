@@ -17,21 +17,19 @@ checkDigit = (keyWoCD) => {
         /* Reverse string */
         keyWoCD = [...keyWoCD].reverse().join('');
         /* Alternatively fetch digits, multiply them by 3 or 1, and sum them up */
-        let multipliedByThree = 0;
-        let multipliedByOne = 0;
+        let sum = 0;
         for (let i = keyWoCD.length - 1; i >= 0; i--) {
             if (parseInt(keyWoCD[i]) === 0) {
                 continue;
             } else {
                 if (i % 2 !== 0) {
-                    multipliedByOne += parseInt(keyWoCD[i]) * 1;
+                    sum += parseInt(keyWoCD[i]) * 1;
                 }
                 else {
-                    multipliedByThree += parseInt(keyWoCD[i]) * 3;
+                    sum += parseInt(keyWoCD[i]) * 3;
                 }
             }
         }
-        let sum = multipliedByThree + multipliedByOne;
         /* Subtract sum from nearest equal or higher multiple of ten */
         let checkDigit = Math.ceil(sum / 10) * 10 - sum;
         return checkDigit;
