@@ -1,6 +1,8 @@
 /* jshint esversion: 6 */
 /* jshint browser: true */
 
+var checkDigit = module.exports;
+
 document.addEventListener("DOMContentLoaded", () => {
     "use strict";
     const calcButton = document.getElementById("calculate");
