@@ -1,3 +1,5 @@
+[![Build And Test](https://github.com/gs1-germany/checkDigitCalculator/actions/workflows/github-actions-npm-build.yml/badge.svg)](https://github.com/gs1-germany/checkDigitCalculator/actions/workflows/github-actions-npm-build.yml)
+
 # GS1 Key Check Digit Calculator
 
 Returns the check digit for all GS1 Keys requiring a Modulo 10 check digit, i.e.
