@@ -11,10 +11,12 @@
 
 "use strict";
 
-export default function checkDigit (keyWoCD) {
+export const idWithoutCheckDigitRegex = /(^\d{7}$)|(^\d{11}$)|(^\d{12}$)|(^\d{13}$)|(^\d{16}$)|(^\d{17}$)/;
+
+export function checkDigit (keyWoCD) {
     "use strict";
     /* Check that input string conveys number of digits that correspond to a given GS1 key */
-    if (/(^\d{7}$)|(^\d{11}$)|(^\d{12}$)|(^\d{13}$)|(^\d{16}$)|(^\d{17}$)/.test(keyWoCD) === false) {
+    if (idWithoutCheckDigitRegex.test(keyWoCD) === false) {
         return null;
     } else {
         /* Reverse string */
@@ -38,3 +40,5 @@ export default function checkDigit (keyWoCD) {
         return checkDigit;
     }
 };
+
+export default checkDigit;

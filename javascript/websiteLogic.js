@@ -1,7 +1,7 @@
 /* jshint esversion: 6 */
 /* jshint browser: true */
 
-import checkDigit from "./index.js"
+import {idWithoutCheckDigitRegex, checkDigit} from "./index.js"
 
 document.addEventListener("DOMContentLoaded", () => {
     "use strict";
@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let feedback = document.getElementById("feedback");
     /* Make sure that user only inserts digits in input field */
     inputString.addEventListener("input", (e) => {
-        if (inputString.value.match(/^[\d]*$/)){ 
+        if (inputString.value.match(idWithoutCheckDigitRegex)){ 
             feedback.value = "";
         }else{
-            feedback.value = "Only digits permitted. Remove invalid characters.";
+            feedback.value = "Only digits permitted. Length must be 7, 11-13, 16 or 17";
         }
     });
     /* Display check digit/complete GS1 key when clicking calculate-button */
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (checkDigit(inputString.value) === null) {
             outputKey.value = "";
             outputValue.value = "";
-            alert("Please insert a valid input string length");
+            alert("Please enter a valid input");
         }else{
             outputValue.value = checkDigit(inputString.value);
             outputKey.value = inputString.value + checkDigit(inputString.value);
