@@ -1,7 +1,7 @@
 /* jshint esversion: 6 */
 /* jshint browser: true */
 
-var checkDigit = module.exports;
+import checkDigit from "./index.js"
 
 document.addEventListener("DOMContentLoaded", () => {
     "use strict";

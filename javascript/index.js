@@ -11,7 +11,7 @@
 
 "use strict";
 
-module.exports = function checkDigit (keyWoCD) {
+export default function checkDigit (keyWoCD) {
     "use strict";
     /* Check that input string conveys number of digits that correspond to a given GS1 key */
     if (/(^\d{7}$)|(^\d{11}$)|(^\d{12}$)|(^\d{13}$)|(^\d{16}$)|(^\d{17}$)/.test(keyWoCD) === false) {
@@ -19,7 +19,7 @@ module.exports = function checkDigit (keyWoCD) {
     } else {
         /* Reverse string */
         keyWoCD = [...keyWoCD].reverse().join('');
-        /* Alternatively fetch digits, multiply them by 3 or 1, and sum them up */
+        /* Alternatingly multiply the digits by 3 or 1, and sum them up */
         let sum = 0;
         for (let i = keyWoCD.length - 1; i >= 0; i--) {
             if (parseInt(keyWoCD[i]) === 0) {
