@@ -1,4 +1,4 @@
-name: Node.js Package
+name: NPM Package And Publish
 on:
   release:
     types: [created]
