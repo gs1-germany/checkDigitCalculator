@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let outputKey = document.getElementById("keyWithCD");
     let feedback = document.getElementById("feedback");
     /* Make sure that user only inserts digits in input field */
-    inputString.addEventListener("keydown", (e) => {
-        if (e.key.match(/[\d]/)){ 
+    inputString.addEventListener("input", (e) => {
+        if (inputString.value.match(/^[\d]*$/)){ 
             feedback.value = "";
         }else{
             feedback.value = "Only digits permitted. Remove invalid characters.";
