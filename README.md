@@ -23,7 +23,7 @@ An interactive demo is available at https://gs1-germany.github.io/checkDigitCalc
 
 ## License
 
-<img alt="MIT" style="border-width:0" src="osi-badge.jpg" width="150px;"/><br />
+<img alt="MIT" style="border-width:0" src="images/osi-badge.jpg" width="150px;"/><br />
 
 Copyright 2021-2023 | Ralph Tröger <ralph.troeger@gs1.de> and Mattias Horn <mattias.horn@gs1.de>
 
