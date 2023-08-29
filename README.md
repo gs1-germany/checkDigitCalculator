@@ -1,3 +1,5 @@
+[![Build And Test](https://github.com/gs1-germany/checkDigitCalculator/actions/workflows/github-actions-npm-build.yml/badge.svg)](https://github.com/gs1-germany/checkDigitCalculator/actions/workflows/github-actions-npm-build.yml)
+
 # GS1 Key Check Digit Calculator
 
 Returns the check digit for all GS1 Keys requiring a Modulo 10 check digit, i.e.
@@ -16,7 +18,7 @@ For an up-to-date and maintained version, go to this repository, forked and oper
 
 ## Demo
 
-An interactive demo is available at https://ralphtro.github.io/checkDigitCalculator/
+An interactive demo is available at https://gs1-germany.github.io/checkDigitCalculator/
 
 ![GS1 Check Digit Calculator Demo Tool ](images/checkDigitCalculator.png)
 
@@ -26,7 +28,7 @@ An interactive demo is available at https://ralphtro.github.io/checkDigitCalcula
 
 ## License
 
-<img alt="MIT" style="border-width:0" src="https://opensource.org/files/OSIApproved_1.png" width="150px;"/><br />
+<img alt="MIT" style="border-width:0" src="osi-badge.jpg" width="150px;"/><br />
 
 Copyright 2021 | Ralph Tröger <ralph.troeger@gs1.de> and Mattias Horn <mattias.horn@gs1.de>
 
