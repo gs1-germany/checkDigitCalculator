@@ -1,8 +1,8 @@
-const { describe } = require('mocha')
+import { describe } from 'mocha'
 
-const assert = require('assert')
+import assert from 'assert'
 
-const checkdigit = require('./')
+import checkDigit from "./index.js"
 
 var test_cases = {
   '0123456': 5,
@@ -19,7 +19,7 @@ var test_cases = {
 describe('Check Digit Examples:', function () {
   for (const [key, value] of Object.entries(test_cases)) {
     it(key + ' has check digit ' + value, function () {
-      assert(checkdigit(key) === value)
+      assert(checkDigit(key) === value)
     })
   }
 })
