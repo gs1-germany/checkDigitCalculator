@@ -4,7 +4,7 @@
   "version": "1.0.4",
   "main": "javascript/index.js",
   "scripts": {
-    "test": "npx mocha javascript/test.js"
+    "test": "node javascript/test.js"
   },
   "type": "module",
   "repository": {
@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/gs1-germany/checkDigitCalculator/issues"
   },
-  "homepage": "https://github.com/gs1-germany/checkDigitCalculator#readme",
-  "devDependencies": {
-    "mocha": "^9.1.2"
-  }
+  "homepage": "https://github.com/gs1-germany/checkDigitCalculator#readme"
 }
