@@ -11,11 +11,6 @@ Returns the check digit for all GS1 Keys requiring a Modulo 10 check digit, i.e.
 
 Returns **null** if input (GS1 key without check digit) is invalid.
 
-## Status of this project
-
-**This repository is no longer maintained and may be archived in the upcoming future. 
-For an up-to-date and maintained version, go to this repository, forked and operated by GS1 Germany: https://github.com/gs1-germany/checkDigitCalculator**
-
 ## Demo
 
 An interactive demo is available at https://gs1-germany.github.io/checkDigitCalculator/
